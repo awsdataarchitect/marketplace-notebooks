@@ -9,6 +9,7 @@ the model package ARN shown for your Region, then run the cells top to bottom.
 | Product | Notebook | Task |
 |---|---|---|
 | BGE Large EN v1.5 | [`notebooks/bge-large-en-v1-5.ipynb`](notebooks/bge-large-en-v1-5.ipynb) | Text embeddings (feature extraction) |
+| BGE Small EN v1.5 | [`notebooks/bge-small-en-v1-5.ipynb`](notebooks/bge-small-en-v1-5.ipynb) | Text embeddings (feature extraction) |
 
 ## Prerequisites
 
@@ -26,4 +27,3 @@ the model package ARN shown for your Region, then run the cells top to bottom.
 ## Support
 
 support@waltsoft.net
-| [BGE Small EN v1.5 - Fast Private Text Embeddings for RAG on SageMaker](https://aws.amazon.com/marketplace/pp/prodview-bge-small-en-v1-5) | `bge-small-en-v1-5.ipynb` | MIT | $0.07/hr |
