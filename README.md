@@ -9,7 +9,9 @@ the model package ARN shown for your Region, then run the cells top to bottom.
 | Product | Notebook | Task |
 |---|---|---|
 | BGE Large EN v1.5 | [`notebooks/bge-large-en-v1-5.ipynb`](notebooks/bge-large-en-v1-5.ipynb) | Text embeddings (feature extraction) |
+| BGE Base EN v1.5 | [`notebooks/bge-base-en-v1-5.ipynb`](notebooks/bge-base-en-v1-5.ipynb) | Text embeddings (feature extraction) |
 | BGE Small EN v1.5 | [`notebooks/bge-small-en-v1-5.ipynb`](notebooks/bge-small-en-v1-5.ipynb) | Text embeddings (feature extraction) |
+| mxbai-embed-large-v1 | [`notebooks/mxbai-embed-large-v1.ipynb`](notebooks/mxbai-embed-large-v1.ipynb) | Text embeddings (feature extraction) |
 
 ## Prerequisites
 
