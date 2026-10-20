@@ -49,7 +49,7 @@ Sample notebooks for 34 SageMaker ML models available on [AWS Marketplace](https
 
 1. Choose **Buy with AWS** for the model in the table above, or browse all models in [AWS Marketplace](https://aws.amazon.com/marketplace/search/results?CREATOR=4bf1a800-d6fc-4c1f-8e88-76ef2dbfb77c&FULFILLMENT_OPTION_TYPE=SAGEMAKER_MODEL&filters=CREATOR%2CFULFILLMENT_OPTION_TYPE)
 2. Open the notebook in Amazon SageMaker Studio or a SageMaker Notebook Instance
-3. Replace the placeholder ARN with your subscription ARN from the AWS Marketplace console
+3. Replace the placeholder with the model package ARN shown on the product's launch page for your Region
 4. Run all cells
 
 All models run on `ml.m5.xlarge` (CPU). No GPU required.
