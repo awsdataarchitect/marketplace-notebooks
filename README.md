@@ -41,6 +41,14 @@ Sample notebooks for 34 SageMaker ML models available on [AWS Marketplace](https
 | [OPUS-MT EN-ES Translator](notebooks/opus-mt-en-es-translation.ipynb) | Machine Translation | Helsinki-NLP/opus-mt-en-es | 298MB | [View in AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-qwuebth2q6y5y) |
 | [DistilGPT2 Text Generation](notebooks/distilgpt2-text-generation.ipynb) | Text Generation | distilbert/distilgpt2 | 82MB | [View in AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-qvnvapjxbsz5a) |
 
+## Small models
+
+Compact models that run on small, low-cost instances. Their listings carry the request/response example and measured results; they have no separate notebook in this repository.
+
+| Model | Task | HuggingFace Model | Size | Instances | AWS Marketplace |
+|---|---|---|---|---|---|
+| TinyBERT-L2 Reranker | Reranking | cross-encoder/ms-marco-TinyBERT-L2-v2 | 17.6MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | [View in AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-aqkv2iue6pe2o) |
+
 ## Usage
 
 1. Open the model's AWS Marketplace listing from the table above, or browse all models in [AWS Marketplace](https://aws.amazon.com/marketplace/search/results?CREATOR=4bf1a800-d6fc-4c1f-8e88-76ef2dbfb77c&FULFILLMENT_OPTION_TYPE=SAGEMAKER_MODEL&filters=CREATOR%2CFULFILLMENT_OPTION_TYPE)
@@ -48,7 +56,7 @@ Sample notebooks for 34 SageMaker ML models available on [AWS Marketplace](https
 3. Replace the placeholder with the model package ARN shown on the product's launch page for your Region
 4. Run all cells
 
-All models run on `ml.m5.xlarge` (CPU). No GPU required.
+The models in the first table run on `ml.m5.xlarge` (CPU); the small models list their own instance types above. No GPU required.
 
 ## License
 
