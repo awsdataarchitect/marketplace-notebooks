@@ -1,6 +1,6 @@
 # AWS Marketplace ML Model Notebooks
 
-Sample notebooks for 38 SageMaker ML models available on [AWS Marketplace](https://aws.amazon.com/marketplace/search/results?CREATOR=4bf1a800-d6fc-4c1f-8e88-76ef2dbfb77c&FULFILLMENT_OPTION_TYPE=SAGEMAKER_MODEL&filters=CREATOR%2CFULFILLMENT_OPTION_TYPE). All models run on `ml.m5.xlarge` (CPU, no GPU required).
+Sample notebooks for 44 SageMaker ML models available on [AWS Marketplace](https://aws.amazon.com/marketplace/search/results?CREATOR=4bf1a800-d6fc-4c1f-8e88-76ef2dbfb77c&FULFILLMENT_OPTION_TYPE=SAGEMAKER_MODEL&filters=CREATOR%2CFULFILLMENT_OPTION_TYPE). All models run on `ml.m5.xlarge` (CPU, no GPU required).
 
 ## Models
 
@@ -50,13 +50,13 @@ Compact models that run on small, low-cost instances (`ml.t2.medium` real-time, 
 | [TinyBERT-L2 Reranker](notebooks/tinybert-l2-reranker.ipynb) | Reranking | cross-encoder/ms-marco-TinyBERT-L2-v2 | 17.6MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | [View in AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-aqkv2iue6pe2o) |
 | [Email Spam Classifier](notebooks/bert-tiny-enron-spam-detection.ipynb) | Text Classification | mrm8488/bert-tiny-finetuned-enron-spam-detection | 17.6MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | [View in AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-znxxqxm7joano) |
 | [ALBERT Paraphrase Embeddings](notebooks/paraphrase-albert-small-embeddings.ipynb) | Text Embeddings | sentence-transformers/paraphrase-albert-small-v2 | 46.7MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | [View in AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-5mcefklex2ils) |
-| [MiniLM-L3 Paraphrase Embeddings](notebooks/paraphrase-minilm-l3-embeddings.ipynb) | Text Embeddings | sentence-transformers/paraphrase-MiniLM-L3-v2 | 69.6MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
-| [GTE-Small Embeddings](notebooks/gte-small-embeddings.ipynb) | Text Embeddings | thenlper/gte-small | 66.7MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
-| [mxbai-embed-xsmall Embeddings](notebooks/mxbai-embed-xsmall-embeddings.ipynb) | Text Embeddings | mixedbread-ai/mxbai-embed-xsmall-v1 | 48.2MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
-| [RuBERT-tiny2 Russian Embeddings](notebooks/rubert-tiny2-russian-embeddings.ipynb) | Text Embeddings | cointegrated/rubert-tiny2 | 117.5MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
-| [BGE-Small Chinese Embeddings](notebooks/bge-small-zh-chinese-embeddings.ipynb) | Text Embeddings | BAAI/bge-small-zh-v1.5 | 95.8MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
-| [MiniLM-L2 Reranker](notebooks/ms-marco-minilm-l2-reranker.ipynb) | Reranking | cross-encoder/ms-marco-MiniLM-L2-v2 | 62.5MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
-| [Granite Embedding Small R2](notebooks/granite-embedding-small-english-r2.ipynb) | Text Embeddings | ibm-granite/granite-embedding-small-english-r2 | 95.3MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
+| [MiniLM-L3 Paraphrase Embeddings](notebooks/paraphrase-minilm-l3-embeddings.ipynb) | Text Embeddings | sentence-transformers/paraphrase-MiniLM-L3-v2 | 69.6MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | [View in AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-mh2upr7vr4aak) |
+| [GTE-Small Embeddings](notebooks/gte-small-embeddings.ipynb) | Text Embeddings | thenlper/gte-small | 66.7MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | [View in AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-wz2yhu7tdjuf2) |
+| [mxbai-embed-xsmall Embeddings](notebooks/mxbai-embed-xsmall-embeddings.ipynb) | Text Embeddings | mixedbread-ai/mxbai-embed-xsmall-v1 | 48.2MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | [View in AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-um4g4frgnsqwu) |
+| [RuBERT-tiny2 Russian Embeddings](notebooks/rubert-tiny2-russian-embeddings.ipynb) | Text Embeddings | cointegrated/rubert-tiny2 | 117.5MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | [View in AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-tv6ux4yzrwbii) |
+| [BGE-Small Chinese Embeddings](notebooks/bge-small-zh-chinese-embeddings.ipynb) | Text Embeddings | BAAI/bge-small-zh-v1.5 | 95.8MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | [View in AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-pueheboswzezs) |
+| [MiniLM-L2 Reranker](notebooks/ms-marco-minilm-l2-reranker.ipynb) | Reranking | cross-encoder/ms-marco-MiniLM-L2-v2 | 62.5MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | [View in AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-xnkhould6mnhc) |
+| [Granite Embedding Small R2](notebooks/granite-embedding-small-english-r2.ipynb) | Text Embeddings | ibm-granite/granite-embedding-small-english-r2 | 95.3MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | [View in AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-csyj6w6lmuzba) |
 
 ## Usage
 
