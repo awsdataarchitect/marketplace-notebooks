@@ -43,11 +43,13 @@ Sample notebooks for 34 SageMaker ML models available on [AWS Marketplace](https
 
 ## Small models
 
-Compact models that run on small, low-cost instances. Their listings carry the request/response example and measured results; they have no separate notebook in this repository.
+Compact models that run on small, low-cost instances (`ml.t2.medium` real-time, `ml.m5.large` batch). Each has a notebook below, and its listing carries the request/response example, deploy steps and measured results.
 
-| Model | Task | HuggingFace Model | Size | Instances | AWS Marketplace |
+| Notebook | Task | HuggingFace Model | Size | Instances | AWS Marketplace |
 |---|---|---|---|---|---|
-| TinyBERT-L2 Reranker | Reranking | cross-encoder/ms-marco-TinyBERT-L2-v2 | 17.6MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | [View in AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-aqkv2iue6pe2o) |
+| [TinyBERT-L2 Reranker](notebooks/tinybert-l2-reranker.ipynb) | Reranking | cross-encoder/ms-marco-TinyBERT-L2-v2 | 17.6MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | [View in AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-aqkv2iue6pe2o) |
+| [Email Spam Classifier](notebooks/bert-tiny-enron-spam-detection.ipynb) | Text Classification | mrm8488/bert-tiny-finetuned-enron-spam-detection | 17.6MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public; find it with the AWS Marketplace search link under Usage |
+| [ALBERT Paraphrase Embeddings](notebooks/paraphrase-albert-small-embeddings.ipynb) | Text Embeddings | sentence-transformers/paraphrase-albert-small-v2 | 46.7MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public; find it with the AWS Marketplace search link under Usage |
 
 ## Usage
 
