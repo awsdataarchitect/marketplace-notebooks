@@ -1,6 +1,6 @@
 # AWS Marketplace ML Model Notebooks
 
-Sample notebooks for 34 SageMaker ML models available on [AWS Marketplace](https://aws.amazon.com/marketplace/search/results?CREATOR=4bf1a800-d6fc-4c1f-8e88-76ef2dbfb77c&FULFILLMENT_OPTION_TYPE=SAGEMAKER_MODEL&filters=CREATOR%2CFULFILLMENT_OPTION_TYPE). All models run on `ml.m5.xlarge` (CPU, no GPU required).
+Sample notebooks for 38 SageMaker ML models available on [AWS Marketplace](https://aws.amazon.com/marketplace/search/results?CREATOR=4bf1a800-d6fc-4c1f-8e88-76ef2dbfb77c&FULFILLMENT_OPTION_TYPE=SAGEMAKER_MODEL&filters=CREATOR%2CFULFILLMENT_OPTION_TYPE). All models run on `ml.m5.xlarge` (CPU, no GPU required).
 
 ## Models
 
@@ -48,8 +48,9 @@ Compact models that run on small, low-cost instances (`ml.t2.medium` real-time, 
 | Notebook | Task | HuggingFace Model | Size | Instances | AWS Marketplace |
 |---|---|---|---|---|---|
 | [TinyBERT-L2 Reranker](notebooks/tinybert-l2-reranker.ipynb) | Reranking | cross-encoder/ms-marco-TinyBERT-L2-v2 | 17.6MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | [View in AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-aqkv2iue6pe2o) |
-| [Email Spam Classifier](notebooks/bert-tiny-enron-spam-detection.ipynb) | Text Classification | mrm8488/bert-tiny-finetuned-enron-spam-detection | 17.6MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public; find it with the AWS Marketplace search link under Usage |
-| [ALBERT Paraphrase Embeddings](notebooks/paraphrase-albert-small-embeddings.ipynb) | Text Embeddings | sentence-transformers/paraphrase-albert-small-v2 | 46.7MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public; find it with the AWS Marketplace search link under Usage |
+| [Email Spam Classifier](notebooks/bert-tiny-enron-spam-detection.ipynb) | Text Classification | mrm8488/bert-tiny-finetuned-enron-spam-detection | 17.6MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | [View in AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-znxxqxm7joano) |
+| [ALBERT Paraphrase Embeddings](notebooks/paraphrase-albert-small-embeddings.ipynb) | Text Embeddings | sentence-transformers/paraphrase-albert-small-v2 | 46.7MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | [View in AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-5mcefklex2ils) |
+| [MiniLM-L3 Paraphrase Embeddings](notebooks/paraphrase-minilm-l3-embeddings.ipynb) | Text Embeddings | sentence-transformers/paraphrase-MiniLM-L3-v2 | 69.6MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
 
 ## Usage
 
