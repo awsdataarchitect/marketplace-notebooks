@@ -56,6 +56,7 @@ Compact models that run on small, low-cost instances (`ml.t2.medium` real-time, 
 | [RuBERT-tiny2 Russian Embeddings](notebooks/rubert-tiny2-russian-embeddings.ipynb) | Text Embeddings | cointegrated/rubert-tiny2 | 117.5MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
 | [BGE-Small Chinese Embeddings](notebooks/bge-small-zh-chinese-embeddings.ipynb) | Text Embeddings | BAAI/bge-small-zh-v1.5 | 95.8MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
 | [MiniLM-L2 Reranker](notebooks/ms-marco-minilm-l2-reranker.ipynb) | Reranking | cross-encoder/ms-marco-MiniLM-L2-v2 | 62.5MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
+| [Granite Embedding Small R2](notebooks/granite-embedding-small-english-r2.ipynb) | Text Embeddings | ibm-granite/granite-embedding-small-english-r2 | 95.3MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
 
 ## Usage
 
