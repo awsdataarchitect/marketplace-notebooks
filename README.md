@@ -51,6 +51,11 @@ Compact models that run on small, low-cost instances (`ml.t2.medium` real-time, 
 | [Email Spam Classifier](notebooks/bert-tiny-enron-spam-detection.ipynb) | Text Classification | mrm8488/bert-tiny-finetuned-enron-spam-detection | 17.6MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | [View in AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-znxxqxm7joano) |
 | [ALBERT Paraphrase Embeddings](notebooks/paraphrase-albert-small-embeddings.ipynb) | Text Embeddings | sentence-transformers/paraphrase-albert-small-v2 | 46.7MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | [View in AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-5mcefklex2ils) |
 | [MiniLM-L3 Paraphrase Embeddings](notebooks/paraphrase-minilm-l3-embeddings.ipynb) | Text Embeddings | sentence-transformers/paraphrase-MiniLM-L3-v2 | 69.6MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
+| [GTE-Small Embeddings](notebooks/gte-small-embeddings.ipynb) | Text Embeddings | thenlper/gte-small | 66.7MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
+| [mxbai-embed-xsmall Embeddings](notebooks/mxbai-embed-xsmall-embeddings.ipynb) | Text Embeddings | mixedbread-ai/mxbai-embed-xsmall-v1 | 48.2MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
+| [RuBERT-tiny2 Russian Embeddings](notebooks/rubert-tiny2-russian-embeddings.ipynb) | Text Embeddings | cointegrated/rubert-tiny2 | 117.5MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
+| [BGE-Small Chinese Embeddings](notebooks/bge-small-zh-chinese-embeddings.ipynb) | Text Embeddings | BAAI/bge-small-zh-v1.5 | 95.8MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
+| [MiniLM-L2 Reranker](notebooks/ms-marco-minilm-l2-reranker.ipynb) | Reranking | cross-encoder/ms-marco-MiniLM-L2-v2 | 62.5MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
 
 ## Usage
 
