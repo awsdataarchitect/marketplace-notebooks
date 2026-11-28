@@ -1,6 +1,6 @@
 # AWS Marketplace ML Model Notebooks
 
-Sample notebooks for 44 SageMaker ML models available on [AWS Marketplace](https://aws.amazon.com/marketplace/search/results?CREATOR=4bf1a800-d6fc-4c1f-8e88-76ef2dbfb77c&FULFILLMENT_OPTION_TYPE=SAGEMAKER_MODEL&filters=CREATOR%2CFULFILLMENT_OPTION_TYPE). All models run on `ml.m5.xlarge` (CPU, no GPU required).
+Sample notebooks for 58 SageMaker ML models available on [AWS Marketplace](https://aws.amazon.com/marketplace/search/results?CREATOR=4bf1a800-d6fc-4c1f-8e88-76ef2dbfb77c&FULFILLMENT_OPTION_TYPE=SAGEMAKER_MODEL&filters=CREATOR%2CFULFILLMENT_OPTION_TYPE). All models run on `ml.m5.xlarge` (CPU, no GPU required).
 
 ## Models
 
@@ -57,6 +57,20 @@ Compact models that run on small, low-cost instances (`ml.t2.medium` real-time, 
 | [BGE-Small Chinese Embeddings](notebooks/bge-small-zh-chinese-embeddings.ipynb) | Text Embeddings | BAAI/bge-small-zh-v1.5 | 95.8MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | [View in AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-pueheboswzezs) |
 | [MiniLM-L2 Reranker](notebooks/ms-marco-minilm-l2-reranker.ipynb) | Reranking | cross-encoder/ms-marco-MiniLM-L2-v2 | 62.5MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | [View in AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-xnkhould6mnhc) |
 | [Granite Embedding Small R2](notebooks/granite-embedding-small-english-r2.ipynb) | Text Embeddings | ibm-granite/granite-embedding-small-english-r2 | 95.3MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | [View in AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-csyj6w6lmuzba) |
+| [all-MiniLM-L12-v2](notebooks/all-minilm-l12-v2-embeddings.ipynb) | Text Embeddings | sentence-transformers/all-MiniLM-L12-v2 | 133.5MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
+| [E5-small-v2](notebooks/e5-small-v2-embeddings.ipynb) | Text Embeddings | intfloat/e5-small-v2 | 133.5MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
+| [paraphrase-MiniLM-L6-v2](notebooks/paraphrase-minilm-l6-v2-embeddings.ipynb) | Text Embeddings | sentence-transformers/paraphrase-MiniLM-L6-v2 | 90.9MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
+| [msmarco-MiniLM-L6-v3](notebooks/msmarco-minilm-l6-v3-embeddings.ipynb) | Text Embeddings | sentence-transformers/msmarco-MiniLM-L6-v3 | 90.9MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
+| [BGE-micro-v2](notebooks/bge-micro-v2-embeddings.ipynb) | Text Embeddings | TaylorAI/bge-micro-v2 | 34.8MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
+| [GIST-small](notebooks/gist-small-embeddings.ipynb) | Text Embeddings | avsolatorio/GIST-small-Embedding-v0 | 133.5MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
+| [Arctic-Embed-S](notebooks/arctic-embed-s-embeddings.ipynb) | Text Embeddings | Snowflake/snowflake-arctic-embed-s | 132.9MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
+| [Granite Embedding 30M English](notebooks/granite-embedding-30m-english.ipynb) | Text Embeddings | ibm-granite/granite-embedding-30m-english | 60.6MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
+| [RuBERT-tiny-turbo](notebooks/rubert-tiny-turbo-embeddings.ipynb) | Text Embeddings | sergeyzh/rubert-tiny-turbo | 116.8MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
+| [RuBERT-tiny-lite](notebooks/rubert-tiny-lite-embeddings.ipynb) | Text Embeddings | sergeyzh/rubert-tiny-lite | 92.2MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
+| [RuBERT-mini-FRIDA](notebooks/rubert-mini-frida-embeddings.ipynb) | Text Embeddings | sergeyzh/rubert-mini-frida | 129.1MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
+| [USER2-small](notebooks/user2-small-russian-embeddings.ipynb) | Text Embeddings | deepvk/USER2-small | 137.6MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
+| [E5-small French](notebooks/multilingual-e5-small-french-embeddings.ipynb) | Text Embeddings | alphaedge-ai/multilingual-e5-small-fra-32768 | 136.9MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
+| [BERT-tiny GooAQ Reranker](notebooks/reranker-bert-tiny-gooaq-bce.ipynb) | Reranking | cross-encoder-testing/reranker-bert-tiny-gooaq-bce | 17.5MB | `ml.t2.medium` (real-time), `ml.m5.large` (batch) | Public once its pipeline run finishes; link added after AWS indexes it |
 
 ## Usage
 
